@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "{{HOMEBRIDGE_USER}}",
+        "port": 51826,
+        "pin": "{{HOMEBRIDGE_PIN}}"
+    },
+    "ports": {
+        "start": 52100,
+        "end": 52150,
+        "comment": "This section is used to control the range of ports that separate accessories (e.g.: camera or television) should bind to."
+    },
+    "accessories": [
+        {
+            "accessory": "QSesame",
+            "name": "{{LOCK_NAME}}",
+            "username": "{{SESAME_EMAIL}}",
+            "password": "{{SESAME_PASSWORD}}"
+        }
+    ]
+}
