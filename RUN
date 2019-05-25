@@ -1,1 +1,0 @@
-docker run -ti -e HOMEBRIDGE_USER='CC:22:3D:E3:CE:30' -e HOMEBRIDGE_PIN='011-15-550' -e LOCK_NAME='My Lock' -e SESAME_EMAIL='my@email' -e SESAME_PASSWORD='mypass' qsesame /bin/bash
